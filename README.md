@@ -24,7 +24,7 @@ If calling from your working directory where UCI HAR Dataset
 present and assuming you downloaded these scripts folder
 to the same working directory
 ```{r}
-     source("run_analysis.R")
+     source("cleansesamsungdata/run_analysis.R")
      runAll()
 ```
      
