@@ -20,5 +20,8 @@ avgPerActivityandSubject <- function(data){
   data[,c(3:68)] <- sapply(data[,c(3:68)],as.numeric)
   md <- melt(data,id=c("Subject","Activity"))
   vv <- dcast(md,Subject+Activity~variable,mean)
+  cn <- colnames(vv)
+  acn <- lapply(cn[3:68],function(x)paste("Average",x,"each subject and activity",sep="-"))
+  colnames(vv) <- c(cn[1:2],acn)
   vv
 }
