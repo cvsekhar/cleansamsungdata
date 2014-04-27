@@ -38,34 +38,32 @@ and activity.
 Acticvities include the following WALKING,SITTING,STANDING,LAYING
 WALKING_UPSTAIRS,WALKING_DOWNSTAIRS
 
+*Subject  -- the id of subject under test
+*Activity -- one of the  6 activites per subject
+
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-Subject  -- the id of subject under test
-Activity -- one of the  6 activites per subject
-
-Average-tBodyAcc-XYZ-*-each subject and activity
-Average-tGravityAcc-XYZ-*-each subject and activity
-Average-tBodyAccJerk-XYZ-*-each subject and activity
-Average-tBodyGyro-XYZ-*-each subject and activity
-Average-tBodyGyroJerk-XYZ-*-each subject and activity
-Average-fBodyAcc-XYZ-*-each subject and activity
-Average-fBodyAccJerk-XYZ-*-each subject and activity
-Average-fBodyGyro-XYZ-*-each subject and activity
-
-
-Average-tBodyAccMag-each subject and activity
-Average-tGravityAccMag-each subject and activity
-Average-tBodyAccJerkMag-each subject and activity
-Average-tBodyGyroMag-each subject and activity
-Average-tBodyGyroJerkMag-each subject and activity
-Average-fBodyAccMag-each subject and activity
-Average-fBodyAccJerkMag-each subject and activity
-Average-fBodyGyroMag-each subject and activity
-Average-fBodyGyroJerkMag-each subject and activity
+*Average-tBodyAcc-XYZ-*-each subject and activity
+*Average-tGravityAcc-XYZ-*-each subject and activity
+*Average-tBodyAccJerk-XYZ-*-each subject and activity
+*Average-tBodyGyro-XYZ-*-each subject and activity
+*Average-tBodyGyroJerk-XYZ-*-each subject and activity
+*Average-fBodyAcc-XYZ-*-each subject and activity
+*Average-fBodyAccJerk-XYZ-*-each subject and activity
+*Average-fBodyGyro-XYZ-*-each subject and activity
+*Average-tBodyAccMag-each subject and activity
+*Average-tGravityAccMag-each subject and activity
+*Average-tBodyAccJerkMag-each subject and activity
+*Average-tBodyGyroMag-each subject and activity
+*Average-tBodyGyroJerkMag-each subject and activity
+*Average-fBodyAccMag-each subject and activity
+*Average-fBodyAccJerkMag-each subject and activity
+*Average-fBodyGyroMag-each subject and activity
+*Average-fBodyGyroJerkMag-each subject and activity
 
 The set of variables that were estimated from these signals are: 
-mean(): Average Mean value
-std(): Average Standard deviation
+*mean(): Average Mean value
+*std(): Average Standard deviation
 
 
