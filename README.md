@@ -14,19 +14,19 @@ Usage
 =====
 
 If inside the directory cleansesamsungdata
-     ```{r}
+```
      source("run_analysis.R")
      d <- "location to the UCI HAR Dataset directory"
      runAll(d) 
-     ```
+```
      
 If calling from your working directory where UCI HAR Dataset
 present and assuming you downloaded these scripts folder
 to the same working directory
-     ```{r}
+```
      source("run_analysis.R")
      runAll()
-     ```
+```
      
 After running runAll you will have to files created
   1. cleanmergedata.txt
