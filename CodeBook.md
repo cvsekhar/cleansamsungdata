@@ -38,8 +38,8 @@ and activity.
 Acticvities include the following WALKING,SITTING,STANDING,LAYING
 WALKING_UPSTAIRS,WALKING_DOWNSTAIRS
 
-*Subject  -- the id of subject under test
-*Activity -- one of the  6 activites per subject
+* Subject  -- the id of subject under test
+* Activity -- one of the  6 activites per subject
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
