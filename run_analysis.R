@@ -24,4 +24,6 @@ runAll <- function(directory="UCI HAR Dataset"){
   t <- avgPerActivityandSubject(m)
   
   write.table(t, file="tidydata.txt",quote=FALSE,col.names=TRUE)
+  
+  t
 }
